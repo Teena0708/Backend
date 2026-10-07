@@ -9,7 +9,7 @@ const userModel = require('./usermodel');
 app.get('/create',async(req,res)=>{
     let createuser = await userModel.create({
         name : "teena",
-        email : "teena@gmail.com"
+        email : "teena23@gmail.com"
     })
 
     res.send(createuser);
